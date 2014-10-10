@@ -1,0 +1,50 @@
+#snake_game_field {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	background-color: gray;
+	margin: auto;
+	border: solid 10px #846a6a;
+}
+
+#snake_menu {
+	width: 800px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.snake_grower_food {
+	/*width: 20px;
+	height: 20px;*/
+	position: absolute;
+	background-color: black;
+}
+
+.snake_bonus_food {
+	/*width: 20px;
+	height: 20px;*/
+	position: absolute;
+	background-color: pink;
+}
+
+.snake_obstacle {
+	position: absolute;
+	background-color: brown;
+}
+
+div.snake_limb {
+	position: absolute;
+	/*width: 20px;
+	height: 20px;*/
+	background-color: black;
+	/*top: 0px;*/
+	/*right: 0px;*/
+}
+
+div#snake_head {
+	position: absolute;
+	/*width: 20px;
+	height: 20px;*/
+	background-color: #710909;
+	visibility: hidden;	
+}

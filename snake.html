@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Snake The Game</title>
+<link id="snake_css" rel="stylesheet" href="css/snake_the_game.css" type="text/css" />
+<link rel="stylesheet" href="css/snake_Basia2.css" type="text/css" />
+<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/snake.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/qunit/qunit-1.13.0.js"></script>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/qunit/qunit-1.13.0.css">
+
+</head>
+<body>
+	<div id="qunit-fixture"></div>
+	<div id="snake_menu"><button id="snake_start_button" onclick="snake.start_game();">Start</button><button onclick="snake.pause_game();" id="snake_pause_button" disabled="disabled">Pause</button><button id="snake_resume_button" onclick="snake.resume_game();" disabled="disabled">Resume</button><button id="snake_stop_button" onclick="snake.stop_game();" disabled="disabled">Stop</button></div>
+	<div id="snake_game_field">
+		<!-- <div class="snake_limb"></div> -->
+		<div id="snake_head"></div>
+	</div>
+</body>
+</html>
